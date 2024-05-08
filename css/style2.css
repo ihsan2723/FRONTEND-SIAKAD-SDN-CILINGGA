@@ -1,0 +1,95 @@
+/* Login */
+* {
+  font-family:'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+#loginbg .container {
+    background-color: #5F6F52;
+    padding: 0;
+    border-radius: 10px;
+  }
+  .sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    max-width: 200px;
+    height: 500px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: #A9B388;
+  }
+  .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 2;
+    max-width: 740px;
+    height: 500px;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #2ECC71;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    background-color: #FEFAE0;
+    width: 500px;
+    height: 300px;
+    border-radius: 60px;
+  }
+  form {
+    padding-top:70px ;
+  }
+  .wadahlogin {
+    background-color: #A9B388;
+    border-radius: 60px;
+  }
+  
+  label {
+    float: left;
+    margin-left: 26px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 450px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  #buttonlogin {
+    background-color: #A9B388;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 13px 42px;
+    border-radius: 20px;
+  }
+  #buttonlogin:hover {
+    background-color: #5F6F52;
+  }
