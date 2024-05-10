@@ -1,56 +1,83 @@
 body {
     background-color: #5F6F52;
-}
-* {
+  }
+  * {
     margin: 0;
     list-style: none;
     text-decoration: none;
     font-family:'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
-}
-
-.sidebar{
+  }
+  
+  .sidebar{
     position: fixed;
     left: 0;
     max-width: 300px;
     width: 25%;
     height: 100%;
     background:#FEFAE0 ;
-}
-
-
-.sidebar header {
+  }
+  
+  
+  .sidebar header {
     font-size: 22px;
     color: white;
     text-align: center;
     line-height: 70px;
     background: #A9B388;
     user-select: none;
-}
-
-.sidebar ul li i {
-    padding-left: 10px;
-}
-
-.sidebar ul a {
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-    line-height: 65px;
-    font-size: 20px;
+  }
+  
+  .sidebar ul {
+    margin-top: 10px;
+  }
+  .sidebar ul li {
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .sidebar ul li:hover{
+    background-color: #A9B388;
+    transition: 0.3s ease;
+  }
+  .sidebar ul li a{
     color: black;
-    padding-left: 5px;
+    text-decoration: none;
+    font-size: 20px;
     padding: 15px;
-    padding-right: 28%;
-} 
-
-.button {
-    color: black; 
-}
-.button:hover {
-   background-color: #5F6F52;
-   color: white;
-}
-
+    line-height: 30px;
+  }
+  .sidebar ul .feat-show {
+    display: none;
+    padding-left: 20px;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-bottom: -15px;
+    background-color: #fefae0;
+  }
+  
+  .sidebar ul .feat-show li {
+    margin-bottom: 5px;
+  }
+  
+  .sidebar ul .button.active .feat-show {
+    display: block;
+  }
+  
+  .sidebar ul li a .dropdown {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    transition: 0.3s ease;
+    top: -2px;
+  }
+  
+  .item .feat-show.show {
+    display: block;
+  }
+  
+  .sidebar .menu .item .feat-show a{
+    padding-left: 55px;
+  }
 .container {
     margin: 20px;
     background-color: #FEFAE0;
