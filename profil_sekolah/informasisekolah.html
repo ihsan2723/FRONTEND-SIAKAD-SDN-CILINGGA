@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="../css/infosek.css" />
   </head>
   <body>
-    <style></style>
     <div class="row">
       <div class="col-md-3">
         <div class="sidebar">
@@ -33,32 +32,44 @@
           </header>
           <ul>
             <li class="button">
-              <i class="bi bi-grid-fill"> </i
-              ><a href="dashboard.html">Dashboard</a>
+              <i class="bi bi-grid-fill"></i>
+              <a href="dashboard.html">Dashboard</a>
             </li>
             <li class="button">
-              <i class="bi bi-house-add-fill"> </i
-              ><a href="../profil_sekolah/profilsekolah.html">Profil Sekolah</a>
+              <i class="bi bi-house-add-fill"></i>
+              <a href="profil_sekolah/profilsekolah.html">Profil Sekolah</a>
             </li>
             <li class="button">
-              <i class="bi bi-person-plus-fill"> </i
-              ><a href="../guru/guru.html">Guru</a>
+              <i class="bi bi-person-plus-fill"></i>
+              <a href="guru/guru.html">Guru</a>
             </li>
             <li class="button">
               <i class="bi bi-book-half"></i>
-              <a href="../mapel/matapelajaran.html">Mata Pelajaran</a>
+              <a href="#" class="feat-btn"
+                >Pelajaran <i class="fas fa-caret-down dropdown"></i
+              ></a>
+              <ul class="feat-show">
+                <li>
+                  <a href=""><i class="bi bi-book-half"></i>Mata Pelajaran</a>
+                </li>
+                <li>
+                  <a href=""><i class="bi bi-book-half"></i>Jadwal Pelajaran</a>
+                </li>
+              </ul>
             </li>
             <li class="button">
-              <i class="i bi-people-fill"> </i
-              ><a href="../siswa/siswa.html">Siswa</a>
+              <i class="i bi-people-fill"></i>
+              <a href="siswa/siswa.html">Siswa</a>
             </li>
             <li class="button">
-              <i class="fa-solid fa-clipboard-user"> </i
-              ><a href="../absensi/absensi.html">Absensi</a>
+              <i class="fa-solid fa-clipboard-user"></i>
+              <a href="absensi/absensi.html" style="margin-left: 8px"
+                >Absensi</a
+              >
             </li>
             <li class="button">
               <i class="fa-solid fa-list-check"></i>
-              <a href="../nilai/nilai.html">Nilai</a>
+              <a href="nilai/nilai.html">Nilai</a>
             </li>
           </ul>
         </div>
@@ -108,5 +119,13 @@
         </footer>
       </div>
     </div>
+    <script>
+      document.querySelectorAll('.feat-btn').forEach((item) => {
+        item.addEventListener('click', (event) => {
+          const parent = item.parentElement;
+          parent.classList.toggle('active');
+        });
+      });
+    </script>
   </body>
 </html>
