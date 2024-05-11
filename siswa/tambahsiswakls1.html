@@ -21,7 +21,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../css/style8.css" />
+    <link rel="stylesheet" href="../css/tambahmapel.css" />
   </head>
   <body>
     <div class="row">
@@ -63,7 +63,7 @@
             </li>
             <li class="button">
               <i class="i bi-people-fill"></i>
-              <a href="siswa.html">Siswa</a>
+              <a href="../siswa/siswa.html">Siswa</a>
             </li>
             <li class="button">
               <i class="fa-solid fa-clipboard-user"></i>
@@ -81,7 +81,10 @@
       <div class="col-md-9">
         <div class="container">
           <nav class="navbar">
-            <h5>Halaman Siswa</h5>
+            <div id="indikator">
+              <a href="tampilsiswa1.html" class="bi bi-arrow-left"></a>
+              <h5 style="padding-right: 30px">Halaman Tambah Siswa Kelas 1</h5>
+            </div>
             <ul>
               <li>Admin |</li>
               <li>Widia Nurindri</li>
@@ -93,36 +96,39 @@
           </nav>
           <hr />
           <div class="box">
-            <a href="../siswa/siswakls1.html">
-              <div class="items">
-                <h3>Siswa Kelas 1</h3>
-              </div>
-            </a>
-            <a href="../siswa/siswakls2.html">
-              <div class="items">
-                <h3>Siswa Kelas 2</h3>
-              </div>
-            </a>
-            <a href="../siswa/siswakls3.html">
-              <div class="items">
-                <h3>Siswa Kelas 3</h3>
-              </div>
-            </a>
-            <a href="../siswa/siswakls4.html">
-              <div class="items">
-                <h3>Siswa Kelas 4</h3>
-              </div>
-            </a>
-            <a href="../siswa/siswakls5.html">
-              <div class="items">
-                <h3>Siswa Kelas 5</h3>
-              </div>
-            </a>
-            <a href="../siswa/siswakls6.html">
-              <div class="items">
-                <h3>Siswa Kelas 6</h3>
-              </div>
-            </a>
+            <div class="container">
+              <form action="../siswa/tampilsiswa1.html">
+                <label for="id_siswa">ID Siswa:</label><br />
+                <input
+                  type="text"
+                  id="id_siswa"
+                  name="id_siswa"
+                  placeholder="Masukkan id siswa"
+                /><br />
+                <label for="nama_siswa">Nama Siswa:</label><br />
+                <input
+                  type="text"
+                  id="nama_siswa"
+                  name="nama_siswa"
+                  placeholder="Masukkan nama siswa"
+                /><br />
+                <label for="jns_kelamin">Jenis Kelamin:</label><br />
+                <input
+                  type="text"
+                  id="jns_kelamin"
+                  name="jns_kelamin"
+                  placeholder="Masukkan jenis kelamin"
+                /><br />
+                <label for="alamat">Alamat:</label><br />
+                <input
+                  type="text"
+                  id="alamat"
+                  name="alamat"
+                  placeholder="Masukkan alamat"
+                /><br /><br />
+                <input id="update" type="submit" value="Update" />
+              </form>
+            </div>
           </div>
         </div>
       </div>
