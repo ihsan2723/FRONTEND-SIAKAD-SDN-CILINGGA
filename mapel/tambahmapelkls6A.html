@@ -21,7 +21,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../css/style6.css" />
+    <link rel="stylesheet" href="../css/tambahmapel.css" />
   </head>
   <body>
     <div class="row">
@@ -50,7 +50,7 @@
               ></a>
               <ul class="feat-show">
                 <li>
-                  <a href=" mapel.html"
+                  <a href="../mapel/mapel.html"
                     ><i class="bi bi-book-half"></i>Mata Pelajaran</a
                   >
                 </li>
@@ -63,7 +63,7 @@
             </li>
             <li class="button">
               <i class="i bi-people-fill"></i>
-              <a href="siswa/siswa.html">Siswa</a>
+              <a href="../siswa/siswa.html">Siswa</a>
             </li>
             <li class="button">
               <i class="fa-solid fa-clipboard-user"></i>
@@ -81,7 +81,10 @@
       <div class="col-md-9">
         <div class="container">
           <nav class="navbar">
-            <h5>Halaman Mata Pelajaran</h5>
+            <div id="indikator">
+              <a href="tampilmapel6A.html" class="bi bi-arrow-left"></a>
+              <h5 style="padding-right: 30px">Halaman Tambah Mapel Kelas 6A</h5>
+            </div>
             <ul>
               <li>Admin |</li>
               <li>Widia Nurindri</li>
@@ -93,36 +96,25 @@
           </nav>
           <hr />
           <div class="box">
-            <a href="../mapel/mapelkls1.html">
-              <div class="items">
-                <h3>Kelas 1</h3>
-              </div>
-            </a>
-            <a href="../mapel/mapelkls2.html">
-              <div class="items">
-                <h3>Kelas 2</h3>
-              </div>
-            </a>
-            <a href="../mapel/mapelkls3.html">
-              <div class="items">
-                <h3>Kelas 3</h3>
-              </div>
-            </a>
-            <a href="../mapel/mapelkls4.html">
-              <div class="items">
-                <h3>Kelas 4</h3>
-              </div>
-            </a>
-            <a href="../mapel/mapelkls5.html">
-              <div class="items">
-                <h3>Kelas 5</h3>
-              </div>
-            </a>
-            <a href="../mapel/mapelkls6.html">
-              <div class="items">
-                <h3>Kelas 6</h3>
-              </div>
-            </a>
+            <div class="container">
+              <form action="../mapel/tampilmapel6A.html">
+                <label for="kode-mapel">Kode Mata Pelajaran:</label><br />
+                <input
+                  type="text"
+                  id="kode-mapel"
+                  name="kode-mapel"
+                  placeholder="Masukkan kode Mapel"
+                /><br />
+                <label for="nama_mapel">Nama Mata Pelajaran:</label><br />
+                <input
+                  type="text"
+                  id="nama_mapel"
+                  name="nama_mapel"
+                  placeholder="Masukkan Nama Mapel"
+                /><br /><br />
+                <input id="update" type="submit" value="Update" />
+              </form>
+            </div>
           </div>
         </div>
       </div>
