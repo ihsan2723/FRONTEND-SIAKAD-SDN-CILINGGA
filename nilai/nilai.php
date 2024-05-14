@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="../css/tambahmapel.css" />
+  <link rel="stylesheet" href="../css/style8.css" />
 </head>
 
 <body>
@@ -53,7 +53,7 @@
           </li>
           <li class="button">
             <i class="fa-solid fa-list-check"></i>
-            <a href="../nilai/nilai.php">Nilai</a>
+            <a href="nilai.php">Nilai</a>
           </li>
         </ul>
       </div>
@@ -61,10 +61,7 @@
     <div class="col-md-9">
       <div class="container">
         <nav class="navbar">
-          <div id="indikator">
-            <a href="tampilmapel3B.php" class="bi bi-arrow-left"></a>
-            <h5 style="padding-right: 30px">Halaman Tambah Mapel Kelas 3B</h5>
-          </div>
+          <h5>Halaman Nilai</h5>
           <ul>
             <li>Admin |</li>
             <li>Widia Nurindri</li>
@@ -76,15 +73,36 @@
         </nav>
         <hr />
         <div class="box">
-          <div class="container">
-            <form action="../mapel/tampilmapel3B.php">
-              <label for="kode-mapel">Kode Mata Pelajaran:</label><br />
-              <input type="text" id="kode-mapel" name="kode-mapel" placeholder="Masukkan kode Mapel" /><br />
-              <label for="nama_mapel">Nama Mata Pelajaran:</label><br />
-              <input type="text" id="nama_mapel" name="nama_mapel" placeholder="Masukkan Nama Mapel" /><br /><br />
-              <input id="update" type="submit" value="Update" />
-            </form>
-          </div>
+          <a href="../nilai/nilaikls1.php">
+            <div class="items">
+              <h3>Nilai Kelas 1</h3>
+            </div>
+          </a>
+          <a href="../nilai/nilaikls2.php">
+            <div class="items">
+              <h3>Nilai Kelas 2</h3>
+            </div>
+          </a>
+          <a href="../Nilai/nilails3.php">
+            <div class="items">
+              <h3>Nilai Kelas 3</h3>
+            </div>
+          </a>
+          <a href="../Nilai/nilaikls4.php">
+            <div class="items">
+              <h3>Nilai Kelas 4</h3>
+            </div>
+          </a>
+          <a href="../Nilai/nilaikls5.php">
+            <div class="items">
+              <h3>Nilai Kelas 5</h3>
+            </div>
+          </a>
+          <a href="../Nilai/nilaikls6.php">
+            <div class="items">
+              <h3>Nilai Kelas 6</h3>
+            </div>
+          </a>
         </div>
       </div>
     </div>

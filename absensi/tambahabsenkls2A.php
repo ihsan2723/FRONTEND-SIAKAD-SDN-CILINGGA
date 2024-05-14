@@ -21,40 +21,40 @@
         <ul>
           <li class="button">
             <i class="bi bi-grid-fill"></i>
-            <a href="../dashboard.html">Dashboard</a>
+            <a href="../dashboard.php">Dashboard</a>
           </li>
           <li class="button">
             <i class="bi bi-house-add-fill"></i>
-            <a href="../profil_sekolah/profilsekolah.html">Profil Sekolah</a>
+            <a href="../profil_sekolah/profilsekolah.php">Profil Sekolah</a>
           </li>
           <li class="button">
             <i class="bi bi-person-plus-fill"></i>
-            <a href="../guru/guru.html">Guru</a>
+            <a href="../guru/guru.php">Guru</a>
           </li>
           <li class="button">
             <i class="bi bi-book-half"></i>
             <a href="#" class="feat-btn">Pelajaran <i class="fas fa-caret-down dropdown"></i></a>
             <ul class="feat-show">
               <li>
-                <a href="../mapel/mapel.html"><i class="bi bi-book-half"></i>Mata Pelajaran</a>
+                <a href="../mapel/mapel.php"><i class="bi bi-book-half"></i>Mata Pelajaran</a>
               </li>
               <li>
-                <a href="../jdwl_mapel/jadwalmapel.html"><i class="bi bi-book-half"></i>Jadwal
+                <a href="../jdwl_mapel/jadwalmapel.php"><i class="bi bi-book-half"></i>Jadwal
                   Pelajaran</a>
               </li>
             </ul>
           </li>
           <li class="button">
             <i class="i bi-people-fill"></i>
-            <a href="../siswa/siswa.html">Siswa</a>
+            <a href="../siswa/siswa.php">Siswa</a>
           </li>
           <li class="button">
             <i class="fa-solid fa-clipboard-user"></i>
-            <a href="absensi.html" style="margin-left: 8px">Absensi</a>
+            <a href="absensi.php" style="margin-left: 8px">Absensi</a>
           </li>
           <li class="button">
             <i class="fa-solid fa-list-check"></i>
-            <a href="../nilai/nilai.html">Nilai</a>
+            <a href="../nilai/nilai.php">Nilai</a>
           </li>
         </ul>
       </div>
@@ -63,7 +63,7 @@
       <div class="container">
         <nav class="navbar">
           <div id="indikator">
-            <a href="tampilabsenkls2A.html" class="bi bi-arrow-left"></a>
+            <a href="tampilabsenkls2A.php" class="bi bi-arrow-left"></a>
             <h5 style="padding-right: 30px">
               Halaman Tambah Absensi Siswa Kelas 2A
             </h5>
@@ -73,14 +73,14 @@
             <li>Widia Nurindri</li>
             <li id="logout">
               <i class="bi bi-box-arrow-right"></i>
-              <a id="out" href="../login.html">Logout</a>
+              <a id="out" href="../login.php">Logout</a>
             </li>
           </ul>
         </nav>
         <hr />
         <div class="box">
           <div class="container">
-            <form action="../absensi/tampilabsenkls2A.html">
+            <form action="../absensi/tampilabsenkls2A.php">
               <label for="nisn">NISN:</label><br />
               <input type="text" id="nisn" name="nisn" placeholder="Masukkan NISN" /><br />
               <label for="nisn">ID Siswa:</label><br />
