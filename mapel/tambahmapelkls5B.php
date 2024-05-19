@@ -49,7 +49,7 @@
           </li>
           <li class="button">
             <i class="fa-solid fa-clipboard-user"></i>
-            <a href="../absensi/absensi.php" style="margin-left: 8px">Absensi</a>
+            <a href="../presensi/presensi.php" style="margin-left: 8px">presensi</a>
           </li>
           <li class="button">
             <i class="fa-solid fa-list-check"></i>

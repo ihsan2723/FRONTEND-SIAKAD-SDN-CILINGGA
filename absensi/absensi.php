@@ -5,12 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard Admin</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style9.css" />
 </head>
 
@@ -53,7 +50,7 @@
                     </li>
                     <li class="button">
                         <i class="fa-solid fa-clipboard-user"></i>
-                        <a href="absensi/absensi.php" style="margin-left: 8px">Absensi</a>
+                        <a href="presensi.php" style="margin-left: 8px">Presensi</a>
                     </li>
                     <li class="button">
                         <i class="fa-solid fa-list-check"></i>
@@ -65,7 +62,7 @@
         <div class="col-md-9">
             <div class="container">
                 <nav class="navbar">
-                    <h5>Halaman Absensi</h5>
+                    <h5>Halaman Presensi</h5>
                     <ul>
                         <li>Admin |</li>
                         <li>Widia Nurindri</li>
@@ -77,34 +74,34 @@
                 </nav>
                 <hr />
                 <div class="box">
-                    <a href="../absensi/absensikls1.php">
+                    <a href="../presensi/presensikls1.php">
                         <div class="items">
-                            <h3>Absensi Siswa Kelas 1</h3>
+                            <h3>presensi Siswa Kelas 1</h3>
                         </div>
                     </a>
-                    <a href="../absensi/absensikls2.php">
+                    <a href="../presensi/presensikls2.php">
                         <div class="items">
-                            <h3>Absensi Siswa Kelas 2</h3>
+                            <h3>presensi Siswa Kelas 2</h3>
                         </div>
                     </a>
-                    <a href="../absensi/absensikls3.php">
+                    <a href="../presensi/presensikls3.php">
                         <div class="items">
-                            <h3>Absensi Siswa Kelas 3</h3>
+                            <h3>presensi Siswa Kelas 3</h3>
                         </div>
                     </a>
-                    <a href="../absensi/absensikls4.php">
+                    <a href="../presensi/presensikls4.php">
                         <div class="items">
-                            <h3>Absensi Siswa Kelas 4</h3>
+                            <h3>presensi Siswa Kelas 4</h3>
                         </div>
                     </a>
-                    <a href="../absensi/absensikls5.php">
+                    <a href="../presensi/presensikls5.php">
                         <div class="items">
-                            <h3>Absensi Siswa Kelas 5</h3>
+                            <h3>presensi Siswa Kelas 5</h3>
                         </div>
                     </a>
-                    <a href="../absensi/absensikls6.php">
+                    <a href="../presensi/presensikls6.php">
                         <div class="items">
-                            <h3>Absensi Siswa Kelas 6</h3>
+                            <h3>presensi Siswa Kelas 6</h3>
                         </div>
                     </a>
                 </div>
@@ -117,12 +114,12 @@
         </div>
     </div>
     <script>
-    document.querySelectorAll('.feat-btn').forEach((item) => {
-        item.addEventListener('click', (event) => {
-            const parent = item.parentElement;
-            parent.classList.toggle('active');
+        document.querySelectorAll('.feat-btn').forEach((item) => {
+            item.addEventListener('click', (event) => {
+                const parent = item.parentElement;
+                parent.classList.toggle('active');
+            });
         });
-    });
     </script>
 </body>
 
