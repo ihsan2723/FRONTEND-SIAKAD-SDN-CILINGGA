@@ -38,11 +38,11 @@
           </li>
           <li class="button">
             <i class="i bi-people-fill"></i>
-            <a href="siswa/siswa.php">Siswa</a>
+            <a href="../siswa/siswa.php">Siswa</a>
           </li>
           <li class="button">
             <i class="fa-solid fa-clipboard-user"></i>
-            <a href="../presensi/presensi.php" style="margin-left: 8px">presensi</a>
+            <a href="../presensi/presensi.php" style="margin-left: 8px">Presensi</a>
           </li>
           <li class="button">
             <i class="fa-solid fa-list-check"></i>

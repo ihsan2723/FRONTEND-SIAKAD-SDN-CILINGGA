@@ -67,32 +67,32 @@
                 <div class="box">
                     <a href="../presensi/presensikls1.php">
                         <div class="items">
-                            <h3>presensi Siswa Kelas 1</h3>
+                            <h3>Presensi Siswa Kelas 1</h3>
                         </div>
                     </a>
                     <a href="../presensi/presensikls2.php">
                         <div class="items">
-                            <h3>presensi Siswa Kelas 2</h3>
+                            <h3>Presensi Siswa Kelas 2</h3>
                         </div>
                     </a>
                     <a href="../presensi/presensikls3.php">
                         <div class="items">
-                            <h3>presensi Siswa Kelas 3</h3>
+                            <h3>Presensi Siswa Kelas 3</h3>
                         </div>
                     </a>
                     <a href="../presensi/presensikls4.php">
                         <div class="items">
-                            <h3>presensi Siswa Kelas 4</h3>
+                            <h3>Presensi Siswa Kelas 4</h3>
                         </div>
                     </a>
                     <a href="../presensi/presensikls5.php">
                         <div class="items">
-                            <h3>presensi Siswa Kelas 5</h3>
+                            <h3>Presensi Siswa Kelas 5</h3>
                         </div>
                     </a>
                     <a href="../presensi/presensikls6.php">
                         <div class="items">
-                            <h3>presensi Siswa Kelas 6</h3>
+                            <h3>Presensi Siswa Kelas 6</h3>
                         </div>
                     </a>
                 </div>

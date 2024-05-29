@@ -5,10 +5,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard Admin</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/tampilsiswa1-6.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/tampilpresensi1-6.css" />
 </head>
 
 <body>
@@ -41,7 +44,7 @@
                     </li>
                     <li class="button">
                         <i class="fa-solid fa-clipboard-user"></i>
-                        <a href="presensi.php" style="margin-left: 8px">presensi</a>
+                        <a href="presensi.php" style="margin-left: 8px">Presensi</a>
                     </li>
                     <li class="button">
                         <i class="fa-solid fa-list-check"></i>
@@ -70,9 +73,14 @@
                 <div class="box">
                     <div class="container">
                         <div class="tambah">
-                            <a href="../presensi/tambahpresensikls6B.php">
+                            <a href="../presensi/tambahpresensikls1.php">
                                 <h5 class="bi bi-plus-square-fill" style="margin: 10px">
                                     Tambah
+                                </h5>
+                            </a>
+                            <a id="rekap" href="../presensi/rekap6B.php">
+                                <h5 class="bi bi-clipboard2-check-fill" style="margin: 10px">
+                                    Rekap
                                 </h5>
                             </a>
                         </div>
@@ -91,7 +99,8 @@
                                     <td>001</td>
                                     <td>Widia N</td>
                                     <td>
-                                        <a id="hapus" class="bi bi-trash-fill" onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
+                                        <a id="hapus" class="bi bi-trash-fill"
+                                            onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
                                         <a id="edit" class="bi bi-pencil-fill" href="editpresensikls6B.php"></a>
                                     </td>
                                 </tr>
@@ -101,7 +110,8 @@
                                     <td>002</td>
                                     <td>Della D</td>
                                     <td>
-                                        <a id="hapus" class="bi bi-trash-fill" onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
+                                        <a id="hapus" class="bi bi-trash-fill"
+                                            onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
                                         <a id="edit" class="bi bi-pencil-fill" href="editpresensikls6B.php"></a>
                                     </td>
                                 </tr>
@@ -111,7 +121,8 @@
                                     <td>003</td>
                                     <td>M Ihsan</td>
                                     <td>
-                                        <a id="hapus" class="bi bi-trash-fill" onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
+                                        <a id="hapus" class="bi bi-trash-fill"
+                                            onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
                                         <a id="edit" class="bi bi-pencil-fill" href="editpresensikls6B.php"></a>
                                     </td>
                                 </tr>
@@ -121,7 +132,8 @@
                                     <td></td>
                                     <td></td>
                                     <td>
-                                        <a id="hapus" class="bi bi-trash-fill" onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
+                                        <a id="hapus" class="bi bi-trash-fill"
+                                            onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
                                         <a id="edit" class="bi bi-pencil-fill" href="editpresensikls6B.php"></a>
                                     </td>
                                 </tr>
@@ -131,7 +143,8 @@
                                     <td></td>
                                     <td></td>
                                     <td>
-                                        <a id="hapus" class="bi bi-trash-fill" onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
+                                        <a id="hapus" class="bi bi-trash-fill"
+                                            onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
                                         <a id="edit" class="bi bi-pencil-fill" href="editpresensikls6B.php"></a>
                                     </td>
                                 </tr>
@@ -141,7 +154,8 @@
                                     <td></td>
                                     <td></td>
                                     <td>
-                                        <a id="hapus" class="bi bi-trash-fill" onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
+                                        <a id="hapus" class="bi bi-trash-fill"
+                                            onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
                                         <a id="edit" class="bi bi-pencil-fill" href="editpresensikls6B.php"></a>
                                     </td>
                                 </tr>
@@ -151,7 +165,8 @@
                                     <td></td>
                                     <td></td>
                                     <td>
-                                        <a id="hapus" class="bi bi-trash-fill" onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
+                                        <a id="hapus" class="bi bi-trash-fill"
+                                            onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
                                         <a id="edit" class="bi bi-pencil-fill" href="editpresensikls6B.php"></a>
                                     </td>
                                 </tr>
@@ -161,7 +176,8 @@
                                     <td></td>
                                     <td></td>
                                     <td>
-                                        <a id="hapus" class="bi bi-trash-fill" onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
+                                        <a id="hapus" class="bi bi-trash-fill"
+                                            onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
                                         <a id="edit" class="bi bi-pencil-fill" href="editpresensikls6B.php"></a>
                                     </td>
                                 </tr>
@@ -178,12 +194,12 @@
         </div>
     </div>
     <script>
-        document.querySelectorAll('.feat-btn').forEach((item) => {
-            item.addEventListener('click', (event) => {
-                const parent = item.parentElement;
-                parent.classList.toggle('active');
-            });
+    document.querySelectorAll('.feat-btn').forEach((item) => {
+        item.addEventListener('click', (event) => {
+            const parent = item.parentElement;
+            parent.classList.toggle('active');
         });
+    });
     </script>
 </body>
 
