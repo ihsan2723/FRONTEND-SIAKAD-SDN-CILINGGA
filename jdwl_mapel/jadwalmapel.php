@@ -33,13 +33,13 @@
           </li>
           <li class="button">
             <i class="bi bi-book-half"></i>
-            <a href="#" class="feat-btn">Pelajaran <i class="fas fa-caret-down dropdown"></i></a>
+            <a href="#" class="feat-btn">Mata Pelajaran <i class="fas fa-caret-down dropdown"></i></a>
             <ul class="feat-show">
               <li>
-                <a href="../mapel/mapel.php"><i class="bi bi-book-half"></i>Mata Pelajaran</a>
+                <a href="../mapel/mapel.php"><i class="bi bi-book-half"></i>Mata Mata Pelajaran</a>
               </li>
               <li>
-                <a href="jadwalmapel.php"><i class="bi bi-book-half"></i>Jadwal Pelajaran</a>
+                <a href="jadwalmapel.php"><i class="bi bi-book-half"></i>Jadwal Mata Pelajaran</a>
               </li>
             </ul>
           </li>
@@ -61,7 +61,7 @@
     <div class="col-md-9">
       <div class="container">
         <nav class="navbar">
-          <h5>Halaman Jadwal Mata Pelajaran</h5>
+          <h5>Halaman Jadwal Mata Mata Pelajaran</h5>
           <ul>
             <li>Admin |</li>
             <li>Widia Nurindri</li>

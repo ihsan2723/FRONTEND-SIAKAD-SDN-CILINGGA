@@ -33,15 +33,7 @@
           </li>
           <li class="button">
             <i class="bi bi-book-half"></i>
-            <a href="#" class="feat-btn">Pelajaran <i class="fas fa-caret-down dropdown"></i></a>
-            <ul class="feat-show">
-              <li>
-                <a href="../mapel/mapel.php"><i class="bi bi-book-half"></i>Mata Pelajaran</a>
-              </li>
-              <li>
-                <a href="../jdwl_mapel/jadwalmapel.php"><i class="bi bi-book-half"></i>Jadwal Pelajaran</a>
-              </li>
-            </ul>
+            <a href="mapel/mapel.php" class="feat-btn">Mata Pelajaran</a>
           </li>
           <li class="button">
             <i class="i bi-people-fill"></i>

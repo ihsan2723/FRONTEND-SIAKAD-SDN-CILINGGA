@@ -33,14 +33,14 @@
           </li>
           <li class="button">
             <i class="bi bi-book-half"></i>
-            <a href="#" class="feat-btn">Pelajaran <i class="fas fa-caret-down dropdown"></i></a>
+            <a href="#" class="feat-btn">Mata Pelajaran <i class="fas fa-caret-down dropdown"></i></a>
             <ul class="feat-show">
               <li>
-                <a href="../mapel/mapel.php"><i class="bi bi-book-half"></i>Mata Pelajaran</a>
+                <a href="../mapel/mapel.php"><i class="bi bi-book-half"></i>Mata Mata Pelajaran</a>
               </li>
               <li>
                 <a href="../jdwl_mapel/jadwalmapel.php"><i class="bi bi-book-half"></i>Jadwal
-                  Pelajaran</a>
+                  Mata Pelajaran</a>
               </li>
             </ul>
           </li>

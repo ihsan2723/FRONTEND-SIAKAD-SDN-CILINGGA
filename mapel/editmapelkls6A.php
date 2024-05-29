@@ -33,15 +33,7 @@
           </li>
           <li class="button">
             <i class="bi bi-book-half"></i>
-            <a href="#" class="feat-btn">Pelajaran <i class="fas fa-caret-down dropdown"></i></a>
-            <ul class="feat-show">
-              <li>
-                <a href="../mapel/mapel.php"><i class="bi bi-book-half"></i>Mata Pelajaran</a>
-              </li>
-              <li>
-                <a href="../jdwl_mapel/jadwalmapel.php"><i class="bi bi-book-half"></i>Jadwal Pelajaran</a>
-              </li>
-            </ul>
+            <a href="../mapel/mapel.php" class="feat-btn">Mata Pelajaran</a>
           </li>
           <li class="button">
             <i class="i bi-people-fill"></i>
@@ -64,7 +56,7 @@
           <div id="indikator">
             <a href="tampilmapel6A.php" class="bi bi-arrow-left"></a>
             <h5 style="padding-right: 30px">
-              Halaman Edit Mata Pelajaran Kelas 6A
+              Halaman Edit Mata Mata Pelajaran Kelas 6A
             </h5>
           </div>
           <ul>
@@ -80,9 +72,9 @@
         <div class="box">
           <div class="container">
             <form action="../mapel/tampilmapel6A.php">
-              <label for="kode-mapel">Kode Mata Pelajaran:</label><br />
+              <label for="kode-mapel">Kode Mata Mata Pelajaran:</label><br />
               <input type="text" id="kode-mapel" name="kode-mapel" placeholder="Masukkan kode Mapel" /><br />
-              <label for="nama_mapel">Nama Mata Pelajaran:</label><br />
+              <label for="nama_mapel">Nama Mata Mata Pelajaran:</label><br />
               <input type="text" id="nama_mapel" name="nama_mapel" placeholder="Masukkan Nama Mapel" /><br /><br />
               <input id="update" type="submit" value="Update" />
             </form>
