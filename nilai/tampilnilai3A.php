@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/siswakls1-6.css" />
+    <link rel="stylesheet" href="../css/tampilnilai1-6.css">
 </head>
 
 <body>
@@ -54,8 +54,8 @@
             <div class="container">
                 <nav class="navbar">
                     <div id="indikator">
-                        <a href="nilai.php" class="bi bi-arrow-left"></a>
-                        <h5>Halaman Nilai Kelas 2</h5>
+                        <a href="nilaikls1.php" class="bi bi-arrow-left"></a>
+                        <h5>Halaman Tampil Nilai Siswa Kelas 3A</h5>
                     </div>
                     <ul>
                         <li>Admin |</li>
@@ -69,81 +69,115 @@
                 <hr />
                 <div class="box">
                     <div class="container">
-                        <div class="tambah">
-                            <h5></h5>
+                        <div class="dropdown">
+                            <button class="dropbtn text-dark" style="font-size:large;">-- Pilih Mata
+                                Pelajaran --</button>
+                            <div class="dropdown-content">
+                                <a href="bindokls3A.php">Bahasa Indonesia</a>
+                                <a href="ipakls3A.php">IPA</a>
+                                <a href="ipskls3A.php">IPS</a>
+                            </div>
                         </div>
                         <div class="tabel">
                             <table>
                                 <tr>
                                     <th>No</th>
-                                    <th>Kelas</th>
-                                    <th>Abjad</th>
-                                    <th>Action</th>
+                                    <th>NISN</th>
+                                    <th>Nama</th>
+                                    <th>Presensi</th>
+                                    <th>UTS</th>
+                                    <th>UAS</th>
+                                    <th>Tugas</th>
+                                    <th>Nilai Akhir</th>
                                 </tr>
                                 <tr>
                                     <td>1.</td>
-                                    <td>Kelas 2</td>
-                                    <td>A</td>
+                                    <td>011</td>
+                                    <td>Widia N</td>
+                                    <td>9/30</td>
                                     <td>
-                                        <a id="view" class="bi bi-eye-fill" style="color: #fefae0" href="tampilnilai2A.php"></a>
+                                        <!-- <input class="input" type="text"
+                                            style="background-color: #FEFAE0; border:none; width:30px;"> -->
                                     </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td>2.</td>
-                                    <td>Kelas 2</td>
-                                    <td>B</td>
-                                    <td>
-                                        <a id="view" class="bi bi-eye-fill" style="color: #fefae0" href="tampilnilai2B.php"></a>
-                                    </td>
+                                    <td>002</td>
+                                    <td>Della D</td>
+                                    <td>10/30</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td>3.</td>
-                                    <td>Kelas 2</td>
-                                    <td>C</td>
+                                    <td>003</td>
+                                    <td>M Ihsan</td>
+                                    <td>9/30</td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <!-- <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
                                     <td>
-                                        <a id="view" class="bi bi-eye-fill" style="color: #fefae0" href=""></a>
+                                        <a id="hapus" class="bi bi-trash-fill"
+                                            onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
+                                        <a id="edit" class="bi bi-pencil-fill" href="editpresensikls1.php"></a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td></td>
+                                    <td></td>
                                     <td>
-                                        <a id="view" class="bi bi-eye-fill" style="color: #fefae0" href=""></a>
+                                        <a id="hapus" class="bi bi-trash-fill"
+                                            onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
+                                        <a id="edit" class="bi bi-pencil-fill" href="editpresensikls1.php"></a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td></td>
+                                    <td></td>
                                     <td>
-                                        <a id="view" class="bi bi-eye-fill" style="color: #fefae0" href=""></a>
+                                        <a id="hapus" class="bi bi-trash-fill"
+                                            onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
+                                        <a id="edit" class="bi bi-pencil-fill" href="editpresensikls1.php"></a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td></td>
+                                    <td></td>
                                     <td>
-                                        <a id="view" class="bi bi-eye-fill" style="color: #fefae0" href=""></a>
+                                        <a id="hapus" class="bi bi-trash-fill"
+                                            onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
+                                        <a id="edit" class="bi bi-pencil-fill" href="editpresensikls1.php"></a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td>
-                                        <a id="view" class="bi bi-eye-fill" style="color: #fefae0" href=""></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
                                     <td></td>
                                     <td>
-                                        <a id="view" class="bi bi-eye-fill" style="color: #fefae0" href=""></a>
+                                        <a id="hapus" class="bi bi-trash-fill"
+                                            onclick="confirm('Apakah anda yakin ingin menghapus?')" href=""></a>
+                                        <a id="edit" class="bi bi-pencil-fill" href="editpresensikls1.php"></a>
                                     </td>
-                                </tr>
+                                </tr> -->
                             </table>
                         </div>
                     </div>

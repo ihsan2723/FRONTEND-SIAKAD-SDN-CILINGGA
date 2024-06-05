@@ -75,7 +75,7 @@
               <h3>Nilai Kelas 2</h3>
             </div>
           </a>
-          <a href="../Nilai/nilails3.php">
+          <a href="../Nilai/nilaikls3.php">
             <div class="items">
               <h3>Nilai Kelas 3</h3>
             </div>
