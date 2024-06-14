@@ -29,7 +29,7 @@
           </li>
           <li class="button">
             <i class="bi bi-person-plus-fill"></i>
-            <a href="guru.php">Guru</a>
+            <a href="../guru/guru.php">Guru</a>
           </li>
           <li class="button">
             <i class="bi bi-book-half"></i>
