@@ -73,7 +73,7 @@
                 <div class="box">
                     <div class="container">
                         <div class="tambah">
-                            <a href="../presensi/tambahpresensikls1.php">
+                            <a href="#">
                                 <h5 class="bi bi-printer-fill" style="margin: 10px">
                                     Cetak Rekap
                                 </h5>
@@ -94,7 +94,7 @@
                                     <th>7</th>
                                     <th>8</th>
                                     <th>...</th>
-                                    <th>30</th>
+                                    <th>26</th>
                                     <th>S</th>
                                     <th>I</th>
                                     <th>A</th>

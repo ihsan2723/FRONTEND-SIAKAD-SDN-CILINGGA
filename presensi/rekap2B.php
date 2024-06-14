@@ -93,8 +93,8 @@
                                     <th>6</th>
                                     <th>7</th>
                                     <th>8</th>
-                                    <th>9</th>
-                                    <th>10</th>
+                                    <th>...</th>
+                                    <th>26</th>
                                     <th>S</th>
                                     <th>I</th>
                                     <th>A</th>
